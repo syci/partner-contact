@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_partner_form_social_media" model="ir.ui.view">
+        <field name="name">Partner Social Media</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form" />
+        <field name="arch" type="xml">
+            <notebook position="inside">
+                <page
+                    name="social_media"
+                    string="Social Media"
+                    groups="base.group_user"
+                >
+                    <group>
+                        <group string="Social Media Profiles">
+                            <field
+                                name="social_linkedin"
+                                widget="url"
+                                placeholder="https://www.linkedin.com/in/..."
+                            />
+                            <field
+                                name="social_twitter"
+                                widget="url"
+                                placeholder="https://twitter.com/..."
+                            />
+                            <field
+                                name="social_github"
+                                widget="url"
+                                placeholder="https://github.com/..."
+                            />
+                            <field
+                                name="social_facebook"
+                                widget="url"
+                                placeholder="https://www.facebook.com/..."
+                            />
+                            <field
+                                name="social_instagram"
+                                widget="url"
+                                placeholder="https://www.instagram.com/..."
+                            />
+                            <field
+                                name="social_youtube"
+                                widget="url"
+                                placeholder="https://www.youtube.com/..."
+                            />
+                        </group>
+                    </group>
+                </page>
+            </notebook>
+        </field>
+    </record>
+</odoo>

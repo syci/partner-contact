@@ -1,0 +1,62 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* partner_social_media
+#
+# Translators:
+# OCA Transbot <transbot@odoo-community.org>
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
+"Language-Team: Spanish (https://www.transifex.com/oca/teams/23907/es/)\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: partner_social_media
+#: model:ir.model,name:partner_social_media.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: partner_social_media
+#: model:ir.model.fields,field_description:partner_social_media.field_res_partner__social_linkedin
+msgid "LinkedIn Profile URL"
+msgstr "URL de perfil de LinkedIn"
+
+#. module: partner_social_media
+#: model:ir.model.fields,field_description:partner_social_media.field_res_partner__social_twitter
+msgid "Twitter/X Profile URL"
+msgstr "URL de perfil de Twitter/X"
+
+#. module: partner_social_media
+#: model:ir.model.fields,field_description:partner_social_media.field_res_partner__social_github
+msgid "GitHub Profile URL"
+msgstr "URL de perfil de GitHub"
+
+#. module: partner_social_media
+#: model:ir.model.fields,field_description:partner_social_media.field_res_partner__social_facebook
+msgid "Facebook Profile URL"
+msgstr "URL de perfil de Facebook"
+
+#. module: partner_social_media
+#: model:ir.model.fields,field_description:partner_social_media.field_res_partner__social_instagram
+msgid "Instagram Profile URL"
+msgstr "URL de perfil de Instagram"
+
+#. module: partner_social_media
+#: model:ir.model.fields,field_description:partner_social_media.field_res_partner__social_youtube
+msgid "YouTube Channel URL"
+msgstr "URL de canal de YouTube"
+
+#. module: partner_social_media
+#: model_terms:ir.ui.view,arch_db:partner_social_media.view_partner_form_social_media
+msgid "Social Media"
+msgstr "Redes Sociales"
+
+#. module: partner_social_media
+#: model_terms:ir.ui.view,arch_db:partner_social_media.view_partner_form_social_media
+msgid "Social Media Profiles"
+msgstr "Perfiles en Redes Sociales"
